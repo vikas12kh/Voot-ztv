@@ -4,8 +4,8 @@ class Config(object):
     # get a token from @BotFather
     BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
     # The Telegram API things
-    API_ID = int(os.environ.get("API_ID", 12345))
-    API_HASH = os.environ.get("API_HASH")
+    API_ID = int(os.environ.get("API_ID", "22694914"))
+    API_HASH = os.environ.get("API_HASH", "4fd02c02368941a03d48ecab3a3b4a31")
     # Get these values from my.telegram.org
     # the download location, where the HTTP Server runs
     DOWNLOAD_LOCATION = "./DOWNLOADS"
@@ -24,9 +24,9 @@ class Config(object):
     # set timeout for subprocess
     PROCESS_MAX_TIMEOUT = 3600
     # your telegram id
-    OWNER_ID = int(os.environ.get("OWNER_ID", ""))
+    OWNER_ID = int(os.environ.get("OWNER_ID", "7491374623"))
     SESSION_NAME = "UPLOADER-X-BOT"
     # database uri (mongodb)
-    DATABASE_URL = os.environ.get("DATABASE_URL", "")
+    DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://cixayad329_db_user:cixayad329_db_user@cluster0.otcdfci.mongodb.net/?appName=Cluster0")
     MAX_RESULTS = "50"
-    PREMIUM_USER = os.environ.get("PREMIUM_USER")
+    PREMIUM_USER = os.environ.get("PREMIUM_USER", "7491374623")
